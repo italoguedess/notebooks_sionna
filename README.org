@@ -6,7 +6,7 @@ Material para as aulas práticas do curso de Sionna da Universidade Federal do C
 
 Primeiramente você deve ter o python instalado no seus sistema assim como o gerenciador de dependência =pip=.
 
-*** Linux
+*** Linux:
 
 1. Abra o terminal;
 2. Mova o terminal para o diretório de escolha usando o comando =cd=;
@@ -14,9 +14,9 @@ Primeiramente você deve ter o python instalado no seus sistema assim como o ger
 4. Após a criação do ambiente, precisamos ativá-lo: =source .venv/bin/activate=;
 5. Após ativação precisaremos instalar as dependências: =pip install sionna notebook=.
 
-*** Windows
+*** Windows:
 
-1. Abra o **PowerShell** ou o **Prompt de Comando (CMD)**;
+1. Abra o *PowerShell* ou o *Prompt de Comando (CMD)*;
 2. Mova o terminal para o diretório de sua escolha usando o comando =cd=;
 3. O seguinte comando cria o ambiente virtual `.venv` no diretório atual: =python -m venv .venv=
 4. Após a criação do ambiente, precisamos ativá-lo.

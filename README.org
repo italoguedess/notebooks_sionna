@@ -1,0 +1,31 @@
+* Curso Sionna
+
+Material para as aulas práticas do curso de Sionna da Universidade Federal do Ceará.
+
+** Criação e Configuração do Ambiente Virtual
+
+Primeiramente você deve ter o python instalado no seus sistema assim como o gerenciador de dependência =pip=.
+
+*** Linux
+
+1. Abra o terminal;
+2. Mova o terminal para o diretório de escolha usando o comando =cd=;
+3. O seguinte commando cria o ambiente virtual *.venv* no diretório atual: =python3 -m venv .venv=;
+4. Após a criação do ambiente, precisamos ativá-lo: =source .venv/bin/activate=;
+5. Após ativação precisaremos instalar as dependências: =pip install sionna notebook=.
+
+*** Windows
+
+1. Abra o **PowerShell** ou o **Prompt de Comando (CMD)**;
+2. Mova o terminal para o diretório de sua escolha usando o comando =cd=;
+3. O seguinte comando cria o ambiente virtual `.venv` no diretório atual: =python -m venv .venv=
+4. Após a criação do ambiente, precisamos ativá-lo.
+   - **No PowerShell:** =.\.venv\Scripts\Activate.ps1=
+   - **No CMD:** =.venv\Scripts\activate.bat=
+5. Após a ativação, precisamos instalar as dependências: =pip install sionna notebook=
+
+** Abrindo os Notebooks Jupyter
+
+1. Ative o ambiente virtual onde você instalou as dependências =source .venv/bin/activate=;
+2. Lance o notebook jupyter =jupyter notebook=;
+3. Após aberto, basta clicar no notebook da sua escolha.

@@ -20,8 +20,8 @@ Primeiramente você deve ter o python instalado no seus sistema assim como o ger
 2. Mova o terminal para o diretório de sua escolha usando o comando =cd=;
 3. O seguinte comando cria o ambiente virtual `.venv` no diretório atual: =python -m venv .venv=
 4. Após a criação do ambiente, precisamos ativá-lo.
-   - **No PowerShell:** =.\.venv\Scripts\Activate.ps1=
-   - **No CMD:** =.venv\Scripts\activate.bat=
+   - No PowerShell: =.\.venv\Scripts\Activate.ps1=
+   - No CMD: =.venv\Scripts\activate.bat=
 5. Após a ativação, precisamos instalar as dependências: =pip install sionna notebook=
 
 ** Abrindo os Notebooks Jupyter

@@ -16,7 +16,7 @@ Primeiramente você deve ter o python instalado no seus sistema assim como o ger
 
 *** Windows:
 
-1. Abra o *PowerShell* ou o *Prompt de Comando (CMD)*;
+1. Abra o *PowerShell* ou o *Prompt de Comando (CMD)* como administrador;
 2. Mova o terminal para o diretório de sua escolha usando o comando =cd=;
 3. O seguinte comando cria o ambiente virtual `.venv` no diretório atual: =python -m venv .venv=
 4. Após a criação do ambiente, precisamos ativá-lo.

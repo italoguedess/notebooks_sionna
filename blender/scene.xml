@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<scene version="3.0.0">
+
+    <bsdf type="diffuse" id="mat-itu_concrete">
+        <rgb name="reflectance" value="0.5, 0.5, 0.5"/>
+    </bsdf>
+
+    <shape type="obj" id="penger">
+        <string name="filename" value="penger.obj"/>
+        <ref id="mat-itu_concrete"/>
+    </shape>
+
+</scene>
